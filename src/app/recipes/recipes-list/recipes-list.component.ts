@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Recipe } from '../recipe';
+import { Recipe } from '../recipe.model';
 
 @Component({
   selector: 'app-recipes-list',
@@ -8,6 +8,6 @@ import { Recipe } from '../recipe';
 })
 export class RecipesListComponent {
 recipes: Recipe[] = [
-  new Recipe("Rice", "the best asian rice", "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcooking.nytimes.com%2Frecipes%2F1019204-basic-stovetop-rice&psig=AOvVaw3Ew7StlA_N5_PC3Xm6x5-l&ust=1695859805357000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOjN-pvAyYEDFQAAAAAdAAAAABAE")
+  new Recipe("Rice", "The best asian rice ever made.!", "https://hips.hearstapps.com/hmg-prod/images/fried-rice-secondary-642edb6852991.jpg?crop=1xw:1xh;center,top&resize=980:*")
 ];
 }
