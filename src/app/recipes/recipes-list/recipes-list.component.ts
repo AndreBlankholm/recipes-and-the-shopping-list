@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipesListComponent {
 recipes: Recipe[] = [
-  new Recipe("Rice", "The best asian rice ever made.!", "https://hips.hearstapps.com/hmg-prod/images/fried-rice-secondary-642edb6852991.jpg?crop=1xw:1xh;center,top&resize=980:*")
+  new Recipe("Fried Rice", "The best asian rice ever made. Here is the recipe.", "https://hips.hearstapps.com/hmg-prod/images/fried-rice-secondary-642edb6852991.jpg?crop=1xw:1xh;center,top&resize=980:*"),
+  new Recipe("Fried Rice", "The best asian rice ever made. Here is the recipe.", "https://hips.hearstapps.com/hmg-prod/images/fried-rice-secondary-642edb6852991.jpg?crop=1xw:1xh;center,top&resize=980:*")
 ];
 }
